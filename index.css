@@ -1,0 +1,101 @@
+body{
+    background: #674baf url(./images/bg-desktop.svg);
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    padding-left: 20px;
+    
+}
+.container{
+   /* max-width: 1070px;*/
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+.content{
+    padding-top: 39.6px;
+}
+
+.flexbox-content{
+    display: flex;
+    
+}
+.flexbox-left{
+    width: 55;
+}
+.flexbox-right{
+    width: 45;
+}
+h1{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 450;
+}
+button{
+    color:#674baf ;
+    background: white;
+    padding: 12px;
+    border-radius: 48px;
+    width: 150px;
+    text-align: center;
+    box-shadow: none;
+    border: solid white;
+    font-size:17px ;
+}
+.social-media-icons{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.facebook{
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    color: white;
+    text-align: center;
+    size: 50px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter{
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    color: white;
+    text-align: center;
+    size: 50px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instagram{
+    border: 1px white solid;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    size: 50px;
+}
+@media screen and (max-width:750px){
+    body{
+        background:#674baf url(./images/bg-mobile.svg);
+    }
+    .flexbox-content{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}

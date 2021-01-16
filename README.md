@@ -1,1 +1,1 @@
-Front-End Challenge 1
+Front- end challenge 1
