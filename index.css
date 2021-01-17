@@ -1,17 +1,19 @@
 body{
-    background: #674baf url(./images/bg-desktop.svg);
+    background: #674baf url(./images/bg-desktop.svg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 100%;
     font-family: "Poppins", sans-serif;
-    padding-left: 20px;
+  
     
 }
 .container{
-   /* max-width: 1070px;*/
+   max-width: 1070px;
     margin: 0 auto;
     padding: 40px 60px;
 }
 .content{
-    padding-top: 39.6px;
+    padding-top: 15.6px;
 }
 
 .flexbox-content{
@@ -19,21 +21,27 @@ body{
     
 }
 .flexbox-left{
-    width: 55;
+    margin-right: 50px;
+    display: flex;
 }
+
 .flexbox-right{
-    width: 45;
+    margin-right: 20px;
 }
+
 h1{
     color: white;
     font-size: 35px;
     margin-bottom: 15px;
+    max-width: 1500px;
+    line-height: 50px;
 }
 p{
     color: white;
     margin-bottom: 20px;
     font-size: 15px;
     font-weight: 450;
+    font-family: "Open sans", sans-serif;
 }
 button{
     color:#674baf ;
@@ -46,11 +54,12 @@ button{
     border: solid white;
     font-size:17px ;
 }
-.social-media-icons{
+.social-media-content{
     display: flex;
     justify-content: flex-end;
     
 }
+
 .facebook{
     border: 1px white solid;
     border-radius: 50%;
